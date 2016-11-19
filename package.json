@@ -1,0 +1,12 @@
+{
+  "name": "railscasts-theme",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A RailsCasts style syntax theme for Atom",
+  "repository": "https://github.com/Meniny/atom-railscasts-theme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
