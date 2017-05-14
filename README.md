@@ -1,5 +1,5 @@
-# RailsCasts Syntax Theme
+# RailsCast Syntax Theme for Atom
 
-A RailsCasts style syntax theme for [Atom](https://atom.io).
+Syntax theme based on the RailsCast TextMate theme.
 
-![railscasts theme](http://meniny.cn/assets/elias_railscasts_theme_screenshot.png)
+![railscast theme](http://i.imgur.com/rUrA8OB.png)
