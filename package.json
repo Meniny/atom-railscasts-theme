@@ -1,7 +1,7 @@
 {
   "name": "elias-railscasts-theme",
   "theme": "syntax",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "private": false,
   "description": "A RailsCasts style syntax theme for Atom",
   "repository": "https://github.com/Meniny/atom-railscasts-theme",
