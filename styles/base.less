@@ -1,8 +1,7 @@
 @import "syntax-variables";
 
-atom-text-editor {
-  &,
-  .gutter {
+atom-text-editor, :host {
+  &, .gutter {
     background-color: @syntax-background-color;
     color: @syntax-text-color;
   }
@@ -15,8 +14,7 @@ atom-text-editor {
     background-color: @syntax-selection-color;
   }
 
-  .line-number.cursor-line-no-selection,
-  .line.cursor-line {
+  .line-number.cursor-line-no-selection, .line.cursor-line {
     background-color: @syntax-cursor-line;
   }
 
@@ -29,94 +27,94 @@ atom-text-editor {
   }
 }
 
-.syntax--comment {
+.comment {
   font-style: italic;
   color: @gold;
 }
 
-.syntax--keyword,
-.syntax--storage {
+.keyword,
+.storage {
   color: @orange;
 }
 
-.syntax--entity.syntax--name.syntax--function,
-.syntax--keyword.syntax--other.syntax--name-of-parameter.syntax--objc {
+.entity.name.function,
+.keyword.other.name-of-parameter.objc {
   color: @yellow;
 }
 
-.syntax--entity.syntax--name {
+.entity.name {
   color: @white;
 }
 
-.syntax--constant.syntax--numeric {
+.constant.numeric {
   color: @lime;
 }
 
-.syntax--variable.syntax--language,
-.syntax--variable.syntax--other {
+.variable.language,
+.variable.other {
   color: @lilac;
 }
 
-.syntax--constant {
+.constant {
   color: @light-blue;
 }
 
-.syntax--variable.syntax--other.syntax--constant {
+.variable.other.constant {
   color: @light-red;
 }
 
-.syntax--constant.syntax--language {
+.constant.language {
   color: @light-blue;
 }
 
-.syntax--string {
+.string {
   color: @lime;
 }
 
-.syntax--support.syntax--function {
+.support.function {
   color: @light-red;
 }
 
-.syntax--support.syntax--type {
+.support.type {
   color: @light-blue;
 }
 
-.syntax--support.syntax--constant {
+.support.constant {
   color: @lime;
 }
 
-.syntax--declaration.syntax--tag,
-.syntax--entity.syntax--name.syntax--tag,
-.syntax--entity.syntax--other.syntax--attribute-name,
-.syntax--meta.syntax--tag {
+.meta.tag,
+.declaration.tag,
+.entity.name.tag,
+.entity.other.attribute-name {
   color: @off-yellow;
 }
 
-.syntax--invalid {
+.invalid {
   color: @white;
   background-color: @red;
 }
 
-.syntax--constant.syntax--character.syntax--escape,
-.syntax--constant.syntax--character.syntax--escaped,
-.syntax--string .syntax--source,
-.syntax--string .syntax--source.syntax--ruby {
+.constant.character.escaped,
+.constant.character.escape,
+.string .source,
+.string .source.ruby {
   color: @green;
 }
 
-.syntax--markup.syntax--inserted {
+.markup.inserted {
   color: @off-white;
   background-color: @dark-green;
 }
 
-.syntax--markup.syntax--deleted {
+.markup.deleted {
   color: @off-white;
   background-color: @dark-red;
 }
 
-.syntax--meta.syntax--diff.syntax--header,
-.syntax--meta.syntax--diff.syntax--index,
-.syntax--meta.syntax--diff.syntax--range,
-.syntax--meta.syntax--separator.syntax--diff {
+.meta.diff.header,
+.meta.separator.diff,
+.meta.diff.index,
+.meta.diff.range {
   background-color: @blue;
 }
